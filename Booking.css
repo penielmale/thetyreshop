@@ -1,0 +1,19 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(128, 128, 128, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.booking-modal{background:var(--cream);width:min(510px,100%);max-height:92vh;overflow:auto;padding:38px;position:relative;color:var(--yellow)}.booking-modal h2{font-size:51px;margin-bottom:18px}.booking-modal form{display:grid;gap:4px}.booking-modal label{display:block;font-size:11px;font-weight:700;margin:8px 0}.booking-modal input,.booking-modal select{display:block;width:100%;border:1px solid #d2d8d2;background:#fff;padding:13px;margin-top:6px;outline-color:var(--orange);font:12px 'DM Sans'}.booking-modal select{appearance:auto}.booking-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.booking-modal .primary-button{margin-top:14px;width:100%;text-align:left}.payment-options{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:24px 0 16px}.payment-option{background:#fff;border:1px solid #d2d8d2;padding:17px;text-align:left;color:var(--ink);cursor:pointer}.payment-option.active{border:2px solid var(--orange);padding:16px}.payment-option strong,.payment-option span{display:block}.payment-option strong{font:23px 'Barlow Condensed';text-transform:uppercase}.payment-option span{font-size:10px;color:#707b7e;margin-top:5px}.bank-details{background:#e5e9e2;border-left:3px solid var(--orange);padding:14px 16px;display:grid;gap:5px;margin:15px 0;font-size:11px}.back-button{display:block;border:0;background:none;color:#687276;font-size:11px;margin:15px auto 0;cursor:pointer}.contact-strip{padding:75px 5.5%;background:var(--ink);color:#fff;display:flex;align-items:center;gap:70px}.contact-strip h2{color:#fff;font-size:54px}.contact-details{display:grid;gap:8px;flex:1}.contact-details a{color:var(--yellow);font:700 21px 'Barlow Condensed';text-decoration:none}.contact-details span{font-size:11px;color:#aab2b4}.contact-strip .primary-button{background:var(--orange)}@media(max-width:760px){.booking-modal{padding:30px 24px}.payment-options{grid-template-columns:1fr}.contact-strip{padding:60px 20px;display:block}.contact-details{margin:26px 0}.contact-strip h2{font-size:46px}.contact-strip .primary-button{margin-top:10px}.site-header .menu-toggle{order:3}.site-header .nav-links{order:4}.site-header .logo{order:1}.site-header .header-cta{order:2}}
